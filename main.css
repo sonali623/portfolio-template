@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #151616;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.button{
+    font-size: 2em;
+    text-decoration: none;
+    color: #151616;
+    border: #151616 1px solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.15s ease-in-out;
+    animation-delay: 1s;
+}
+
+.button:hover{
+    background-color: #151616;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+/* nav */
+#nav{
+    background: #151616;
+    color: #fff;
+}
+
+.menu {
+    padding-top:15px;
+    height: 40px;
+    background: #151616;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu ul, .menu ul li{
+    display: inline;
+}
+
+.menu a {
+    background: #151616;
+    color: #fff;
+    display: inline;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    font-size: 1.5em; 
+}
+
+/* Home */
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: #151616;
+    color: #fff;
+    text-align: center;
+}
+
+.text-home {
+    position: relative;
+    top: 30%;
+}
+
+.text-home h1{
+    font-size: 7em;
+    padding-bottom: 0.2em;
+    animation-delay: 0.5s;
+}
+
+.text-home p{
+    font-size: 2em;
+    color: #ccc;
+    text-align: right;
+    width: 45%;
+    float: right;
+    padding-right:0.5em;
+}
+.text-home .padding{
+    padding-right: 13em;
+    animation-delay: 2s;
+}
+
+.text-home .indic{
+    border-right: 2px solid #fff;
+
+}
+
+/* About */
+
+#about{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #f2f2f2;
+    color:#151616;
+}
+
+.text-about{
+    position: relative;
+    top: 25%;
+}
+
+
+.text-about p{
+    color:#151616;
+    font-size: 1.5em;
+    padding: 3em 15em;
+    line-height: 1.5em;
+}
+
+/* Skills */
+
+#skills{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color:#151616;
+
+}
+
+.text-skills{
+    position: relative;
+    top: 10%;
+}
+
+.text-skills h3{
+    font-size:2em;
+    padding-bottom: 2em;
+    line-height: 1.5em;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 6em;
+}
+
+.grid img{
+    height: 35px;
+    vertical-align:middle;
+}
+
+.grid .responsive{
+    height: 50px;
+}
+
+.grid p{
+    padding-top: 5px;
+    display: block;
+    
+}
+
+.grid div{
+    line-height: 1.8em;
+}
+
+/* Projects */
+
+#projects{
+    height: 130vh;
+    text-align: center;
+    background-color: #f2f2f2;
+    color:#151616;
+
+}
+
+.text-projects{
+    position: relative;
+    top: 10%;
+    color:#151616;
+}
+
+.text-projects h3{
+    font-size:2em;
+    padding: 2em 0 2em 0;
+    line-height: 1.5em;
+}
+
+.text-projects img{
+    height: 400px;
+    padding: 0 20px 50px 20px;
+}
+
+/* Contact */
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color:#151616;
+    line-height: 5em;
+}
+
+.text-contact{
+    position: relative;
+    top: 10%;
+    color:#151616;
+}
+.text-contact h1{
+    padding-bottom: 50px;
+}
+#form input{
+    width: 35%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+#form textarea{
+    margin-top:-50px;
+    width: 35%;
+    height: 150px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.text-contact a{
+    font-size: 1.5em;
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 75px;
+}
+
+footer img{
+    height: 40px;
+    vertical-align:sub;
+    
+}
+
+footer p{
+    display: inline;
+    font-size: 1.5em;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+/* animations */
+
+.indic{
+    animation: blinkTextCursor 1000ms steps(50) infinite normal;
+}
+
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #fff;
+    }
+    
+    to {
+        border-right-color: transparent;
+    }
+}
+
+/* media queries */
+
+@media(max-width:769px){
+    .menu{
+        display: none;
+    }
+    .text-home{
+           top: 40%;
+    }
+    .text-home h1{
+        font-size: 2em;
+    }
+    
+    .text-home p{
+        float: none;
+        text-align: right;
+        width: 100%;
+        font-size: 1em;
+        padding-left:11em; 
+    }
+    
+    .text-about p{
+        padding: 2em;
+    }
+    
+    .grid{
+        display: block;
+    }
+    
+    #skills{
+        height:1300px;
+    }
+    .text-skills{
+        position: relative;
+        top:5%;
+    }
+    .text-skills h3{
+        font-size: 1.3em;
+        margin-top: 40px;
+    }
+    
+    .text-contact h1{
+        font-size: 2.5em;
+    }
+    
+    #projects{
+        height: 1100px;
+    }
+    
+    #projects img{
+        height: 200px;
+    }
+}
