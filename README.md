@@ -1,6 +1,11 @@
 # portfolio-template
 Here's a portfolio template you can use to showoff your skills!
 
+<h2 align="center">
+  <img src="https://github.com/sonali623/portfolio-template/blob/master/screenshot.PNG" alt="Simplefolio" width="600px" />
+  <br>
+</h2>
+
 ## How to use :pushpin:
 
 From your command line, first clone Simplefolio:
