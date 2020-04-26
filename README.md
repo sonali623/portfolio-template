@@ -11,13 +11,13 @@ Here's a portfolio template you can use to showoff your skills!
 From your command line, first clone portfolio-template:
 
 ### Clone this repository
-$ git clone https://github.com/sonali623/portfolio-template
+`$ git clone https://github.com/sonali623/portfolio-template`
 
 ### Go into the repository
-$ cd portfolio-template
+`$ cd portfolio-template`
 
 ### Remove current origin repository
-$ git remote remove origin
+`$ git remote remove origin`
 
 ## Technologies used 🛠️
 
