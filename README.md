@@ -8,13 +8,13 @@ Here's a portfolio template you can use to showoff your skills!
 
 ## How to use :pushpin:
 
-From your command line, first clone Simplefolio:
+From your command line, first clone portfolio-template:
 
 ### Clone this repository
-$ git clone https://github.com/cobidev/simplefolio
+$ git clone https://github.com/sonali623/portfolio-template
 
 ### Go into the repository
-$ cd simplefolio
+$ cd portfolio-template
 
 ### Remove current origin repository
 $ git remote remove origin
